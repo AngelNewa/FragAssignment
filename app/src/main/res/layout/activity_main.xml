@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAOC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Area of Circle"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"/>
+
+        <Button
+            android:id="@+id/btnPallin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pallindrum number"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"/>
+
+
+        <Button
+            android:id="@+id/btnSI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simple Interest"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnAmstrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amstrong number"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"/>
+        <Button
+            android:id="@+id/btnAutomorphing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Automorphing"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"/>
+        <Button
+            android:id="@+id/btnSwiping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swiping numbers"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"/>
+</LinearLayout>
