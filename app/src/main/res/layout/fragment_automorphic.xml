@@ -4,12 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".fragments.Armstrong">
+    tools:context=".fragments.Automorphic">
+
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etArmstrong"
+        android:id="@+id/etAutomorphic"
         android:hint="Enter any number"
         android:inputType="number"
         />
@@ -18,12 +19,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Check"
-        android:id="@+id/btnArmstrong"
+        android:id="@+id/btnAutomorphic"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvArmstrong"/>
+        android:id="@+id/tvAutomorphic"/>
+
+
+
 
 </LinearLayout>

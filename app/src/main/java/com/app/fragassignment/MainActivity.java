@@ -8,6 +8,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.app.fragassignment.fragments.Area;
+import com.app.fragassignment.fragments.Armstrong;
+import com.app.fragassignment.fragments.Automorphic;
+import com.app.fragassignment.fragments.Pallindrum;
+import com.app.fragassignment.fragments.SimpleInterest;
+import com.app.fragassignment.fragments.Swapping;
+
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -48,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.btnPalindrome:
-                Palindrome palindrome = new Palindrome();
+                Pallindrum palindrome = new Pallindrum();
                 fragmentTransaction.replace(R.id.fragmentContainer, palindrome);
                 fragmentTransaction.commit();
                 break;
